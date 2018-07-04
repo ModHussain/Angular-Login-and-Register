@@ -1,0 +1,13 @@
+<h3>Designation Unit</h3>
+    <table class=" table table-bordered table-primary ">
+      <tr>
+        <th>ID</th>
+        <th>nameOfTheCostCenter</th>
+        <th>Edit</th>
+      </tr>
+      <tr *ngFor="let z of designationlist">
+          <td> {{z.id}}</td>
+        <td> {{z.nameOfBusinessUnit}}</td>
+        <td><button type="button" class="btn"><i class="far fa-edit" ></i> edit</button></td>
+      </tr>
+    </table>

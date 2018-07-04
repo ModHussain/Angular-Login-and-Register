@@ -1,0 +1,24 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a routerLink="costcenter">CostCenter</a></li>
+      <li><a routerLink="businessunit">Business Unit</a></li>
+      <li><a routerLink="designation">Designation</a></li>
+      <li><a routerLink="about">Resource Type</a></li>
+      <li><a routerLink="about">Contract Period</a></li>
+      <li><a routerLink="about"> Bond Type</a></li>
+     
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user" routerLink="service"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in" routerLink="service"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<router-outlet></router-outlet>
+</div>
